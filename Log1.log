@@ -1,0 +1,224 @@
+--- Log opened Mon Jun 05 19:55:20 2017
+19:55 -!- tushaar changed the topic of #IE-Android-1 to: IE-Android SMP Session 01.
+19:56 < tushaar> Hey guys! We'll be starting in a while!
+20:01 < tushaar> Welcome to IE-Android SMP Session 01.
+20:02 < tushaar> Let's wait for another 10 minutes, in case anyone wants to join.
+20:03 < tushaar> And, all the mentorship logs will be recorded for further use.
+20:04 < tushaar> As per the course plan, we'll be getting started with the intro today.
+20:05 < tushaar> Installation and dependencies have been clearly stated in the course plan.
+20:05 < tushaar> All of you follow the installation part, after today's session.
+20:06 < tushaar> And any queries, please feel free to ask. For all you know, you might be helping us learn more. 
+20:07 < tushaar> Let's not get too technical, not for the first few minutes at least :)
+20:07 < tushaar> How was your first year at NITK?
+20:08 < Akash__> Awesome...
+20:08 < amogh> good
+20:08 <@nandini> it was good
+20:08 < Khanak> It was really good
+20:08 < tushaar> Great! So, what did you all learn in the computers course?
+20:09 < Darz_> c prog
+20:09 < amogh> c programming in first year
+20:09 < tushaar> Yup. Great!
+20:09 < tushaar> Pointers!
+20:09 < Akash__> c,c++,a little of matlab
+20:09 < tushaar> How do you like pointers?
+20:09 < Khanak> hate it
+20:10 <@nandini> it sucks
+20:10 < tushaar> Wow akash! Great job :)
+20:10 < tushaar> You said it! I hate pointers too.
+20:10 < Akash__> thanks..pointers is good
+20:11 < tushaar> I'm sorry to disappoint you akash, no pointers in Java :(
+20:11 < tushaar> Yup. That's right. Java has no concept of pointers!
+20:11 < Akash__> no worries... :-)
+20:11 < Khanak> Wow
+20:12 < tushaar> Can any one of describe a few distinguishing features of C?
+20:12 < tushaar> Maybe, something you like in C!
+20:12 < Akash__> it works on pop(procedure oriented program) rather than oop
+20:13 < tushaar> Correct, and?
+20:13 < Ashwin> Ability to use macros?
+20:14 < tushaar> Wow. You like that.
+20:14 < bhargava_> bit manipulation
+20:14 < tushaar> Ah! Bit manipulation.
+20:15 < tushaar> Bit manipulation isn't language specific, bhargava.
+20:15 < tushaar> Isn't it?
+20:15 < bhargava_> oh okk
+20:15 < bhargava_> true
+20:16 < tushaar> Computers use C!
+20:16 < tushaar> One question, why is C so fast?
+20:17 < tushaar> In comparison to any other programming languages, C is incredibly fast.
+20:17 < Akash__> it uses functions,modularity etc...
+20:18 < tushaar> Modularity and functions - every programming language in use now, uses these concepts.
+20:18 < Khanak> there are header files which gives us direct access to definition of all libraray functions
+20:18 < Khanak> it uses a compiler 
+20:18 < bhargava_> it has the lowest level of implementation
+20:19 < tushaar> Header files - linkers and loaders take care of those.
+20:19 < tushaar> Compilation - to some extent yes, C is compiled and not interpreted, but not the main reason.
+20:19 < Akash__> is it data types and operators?
+20:19 < tushaar> You're right, bhargava.
+20:20 < darshan> It's not object oriented
+20:20 < tushaar> There's nothing special about C.
+20:20 < tushaar> Darshan, yes it isn't. Not a huge contributing factor.
+20:21 < bhargava_> and c doesnt have anything for additional processing 
+20:22 < tushaar> Exactly!
+20:23 < tushaar> Unlike many other sophisticated languages, C doesn't support garbage collection, dynamic typing and many others.
+20:23 < tushaar> Remember, free(ptr) ;
+20:23 < Akash__> yup.
+20:24 < Khanak> yea
+20:24 < tushaar> C compilers must be explicitly told to free the pointers.
+20:25 < tushaar> While in say, Java it is automatic. Objects (don't worry about it now :P) are garbage collected by System.gc() ;
+20:26 < tushaar> The idea is just that, languages like Java, Python, Julia and many others have these additional features which require additional processing.
+20:27 < tushaar> In C, one must make sure to handle the memory allocation and free them to prevent memory leaks.
+20:28 < tushaar> That being said, C is not a platform independent language.
+20:28 < tushaar> Can anyone throw some light on that statement?
+20:29 < bhargava_> its basically designed for unix
+20:29 < tushaar> No bhargava.
+20:29 < Khanak> does that mean its OS dependent?
+20:29 < Khanak> any os
+20:29 < tushaar> I'm sure that you can run C on Mac and Windows.
+20:29 < Darz_> it gives diiferent output for different compilers
+20:30 < bhargava_> yeah but it needs some external client right ?
+20:30 <@nandini> modifications are to be done depending on os
+20:30 < Ani_> its os dependent and adjustments must be made to make it run on other os
+20:30 < tushaar> It means that if I have a compiled code, I can't use that compiled code to run on any OS I like.
+20:31 < tushaar> Correct, ani.
+20:31 < tushaar> Now, just think a little and tell me as to why Java might be portable.
+20:31 < tushaar> Machine independent.
+20:32 < Ani_> it is platform independent and its complied code can be run on any system
+20:32 < Darz_> the code is converted into bytecode
+20:32 < Darz_> and run in jvm
+20:32 < amogh> jvm makes it work on any os
+20:32 < tushaar> Amazing, darz!
+20:33 < tushaar> And amogh
+20:33 < amogh> java virtual machine
+20:33 < tushaar> That's right.
+20:33 < tushaar> JVM - Java virtual machine. It's installed on every system and acts like a translator between the compiled code and your machine.
+20:34 < tushaar> And as a fun fact, can anyone guess if Java is compiled or interpreted language?
+20:35 < bhargava_> compiled
+20:35 < Darz_> compiled
+20:35 < Ani_> complied
+20:35 <@nandini> complied
+20:35 < Ashwin> Complied
+20:35 < tushaar> Okay. Cool. Any specific reason?
+20:36 < tushaar> Any doubts till now?
+20:36 < Darz_> interpretation will make it slow
+20:37 < tushaar> I never said anything about Java being fast.
+20:37 < tushaar> Infact it's slower than C, C++.
+20:38 < tushaar> Any other reason?
+20:38 < Khanak> I mean we do use it for really big projects, we have to make it as fast as possible
+20:39 < tushaar> It's not very slow either. And it's used in different projects because of it's versatility!
+20:39 < Akash__> C,C++ converts to binary code directly. but java compiles to an intermediate binary form (JVM byte code)
+20:39 < tushaar> It's object oriented nature.
+20:39 < Darz_> it must be converted into bytecode all at once
+20:40 < tushaar> Okay, all guesses are wrong xD
+20:40 < Darz_> instead of line by line interpretation
+20:40 < tushaar> Java is both compiled as well as interpreted.
+20:40 < tushaar> Wow. That's a lot to take in. Isn't it.
+20:41 < Khanak> yup
+20:41 < tushaar> How can a language be both compiled and interpreted.
+20:41 < tushaar> Huh. Good question.
+20:41 < tushaar> Any guesses?
+20:41 < amogh> first compiled and then interpreted?
+20:42 < Khanak> maybe it depends on the user maybe we can choose?
+20:43 < tushaar> Anything else?
+20:43 <@nandini> may be  it depends on the environment?
+20:45 < tushaar> Let's break down the process of execution.
+20:45 < tushaar> Part one - until you generate bytecode.
+20:45 < tushaar> Part two - bytecode till execution.
+20:45 < tushaar> Correct?
+20:46 < Ashwin> Ok
+20:46 < tushaar> Part one - compiled.
+20:47 < tushaar> Part two - interpreted.
+20:47 < tushaar> Apart from interpreting in the second part there also exists JIT compiler.
+20:47 < tushaar> Just-In-Time!
+20:47 < tushaar> Kinda like dynamic compilation!
+20:48 < tushaar> We have compared Java with C.
+20:48 < tushaar> And we have now seen a few salient features of Java.
+20:49 < tushaar> We'll look deeper, about Java, Programming in Java in the next session.
+20:49 < tushaar> Any doubts so far? We'll look at Android for sometime.
+20:50 < amogh> no doubts
+20:50 <@nandini> no
+20:50 < Divy_> No
+20:50 < Darz_> any way we can know or use the jvm istalled in our systems?
+20:51 < Ani_>  no doubts
+20:51 < Ashwin> Clear
+20:51 < tushaar> JVM installation happens with Java installation.
+20:52 < Darz_> ok
+20:52 < tushaar> If you goto the oracle website, you'll get the necessary guidance.
+20:52 < Darz_> ok
+20:54 < Divy_> Ok
+20:54 < tushaar> And before I forget, you'll be given a reading assignment for the week.
+20:55 < tushaar> And a few links and questions and stuff like that.
+20:55 < Khanak> ok
+20:55 < tushaar> I want all of you to take that seriously, you can email me your answers if you wish to.
+20:56 < tushaar> And the discussion about the same will happen in the following session.
+20:56 <@nandini> okay
+20:56 < tushaar> Feel free to ask anything!
+20:57 < tushaar> Basic question, why do you wanna be an Android developer?
+20:57 < Khanak> you'll send that on whatsapp right?
+20:57 < tushaar> Yeah. I will.
+20:57 < tushaar> Or, I'll put up a link, where you can view the necessary material.
+20:58 < Khanak> okay thanks
+20:58 < tushaar> Cool :)
+20:58 < tushaar> Why Android?
+20:58 < tushaar> Anyone?
+20:59 < amogh> inorder to make android more efficient and user friendly?
+20:59 < tushaar> Okay. 
+20:59 < Ashwin> It's exciting:)
+20:59 < tushaar> I feel the same way, ashwin :)
+20:59 < Darz_> it has the largest reach among all OSes
+21:00 < Khanak> its cool, always wanted to know how it works
+21:00 < tushaar> Maybe!
+21:00 < tushaar> Great, let me tell you, Unix and Android are among the most used operating systems.
+21:01 < tushaar> Unix being the most, owing to its development feasibility.
+21:01 < tushaar> Now, can anyone break up the steps in android development.
+21:02 < tushaar> Two major steps.
+21:02 < amogh> xml and java development?
+21:02 < tushaar> It applies to any development, web, android, anything!
+21:03 < tushaar> Yup, more precisely, UI (User Interface) and Back-end!
+21:03 < tushaar> Right?
+21:03 < amogh> yes
+21:03 <@nandini> yea
+21:04 < tushaar> In Android, XML (Extensible Markup Language) constitues the front-end or the UI, while Java forms the major back-end backbone.
+21:04 < tushaar> With some help from database :)
+21:05 < Ani_> how would one define back end
+21:06 < tushaar> Let me make it very clear, I know that some of you may have used the Android studio, you might have used the drag-and-drop options.
+21:06 < tushaar> I don't want anyone doing that.
+21:06 < amogh> yea
+21:06 < tushaar> I want you to code in XML.
+21:06 < amogh> ok
+21:07 < Ani_> ok
+21:07 < tushaar> Back end is anything that you can't see, functionality of the application is its back-end.
+21:07 < Ani_> like the opreation of going from one web page to another?
+21:07 < Ani_> does it also count as back end application
+21:07 < tushaar> Yes, it does.
+21:08 < Ani_> oh okay thanks
+21:08 < tushaar> Any doubts?
+21:08 < amogh> no
+21:09 < tushaar> Cool.
+21:10 < tushaar> Anything you'd want to know in particular, you can ask now.
+21:11 < Khanak> Im going to ask a really amateur question
+21:11 < Khanak> as I have no clue 
+21:11 < tushaar> I love amateur! Shoot!
+21:12 < Khanak> is android like a touch screen specific OS?
+21:12 < Khanak> or does it work on all kind of devices?
+21:14 < tushaar> Android OS is a mobile OS developed by Google, primarily for touchscreen mobile devices!
+21:14 < tushaar> And by the way, Android is based on Linux Kernel!
+21:14 < Khanak> oh okay
+21:15 < tushaar> Okay, anything else?
+21:16 < Khanak> no
+21:17 < tushaar> So, I take it that everything's clear?
+21:17 < Khanak> yea
+21:18 < tushaar> I'll be posting the link to the logs in 10 minutes.
+21:18 < amogh> ok
+21:18 < tushaar> And I'll be posting the assignment soon.
+21:18 < tushaar> Anyways, here's my email id: tushaargvsg45@gmail.com.
+21:19 < Khanak> like a coding assignment?
+21:19 < tushaar> I'll decide that. Mostly yes :)
+21:19 < tushaar> More of a reading and implementing type!
+21:19 < Khanak> oh okay because I'm new to the langauge
+21:20 < tushaar> I know. Don't worry.
+21:20 < tushaar> I haven't started Java yet, so it'll be basic.
+21:20 < Khanak> okay thanks.
+21:21 < tushaar> It'll mostly be translating from C to Java and vice versa. Very basic stuff :)
+21:22 < tushaar> Any doubts, message or email me. I'll reply as fast as I can.
+21:22 < amogh> ok
+21:22 < tushaar> Thank you all, for attending the session, good night :)
